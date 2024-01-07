@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/skeleton.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>My Book Library</title>
+</head>
+<body>
+    <h1>
+        My book library
+    </h1>
+    <div>
+        <form action="">
+            <div class="form-container">
+                <div class="book-form">
+                    <label for="book">Book</label>
+                    <input type="text" id="book">
+                </div>
+                <div class="author-form">
+                    <label for="author">Author</label>
+                    <input type="text" id="author">
+                </div>
+                <div class="status-form">
+                    <label for="status">Status</label>
+                    <select name="status" id="status">
+                        <option value="read">Read</option>
+                        <option value="not-read">Not read</option>
+                    </select>
+                </div>
+            </div>
+            <div class="submit-form">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Book</th>
+                    <th>Author</th>
+                    <th>Status</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- place holder item -->
+                <tr>
+                    <td>Book 1</td>
+                    <td>Author 1</td>
+                    <td>
+                        <select name="status" id="status">
+                            <option value="read">Read</option>
+                            <option value="not-read">Not read</option>
+                        </select>
+                    </td>
+                    <td>
+                        <button class="delete-btn">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
