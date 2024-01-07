@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+body{
+    height: 100vh;
+    margin: 10% 25%;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+label{
+    display: block;
+}
+.form-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.book-form, 
+.author-form{
+    flex-grow: 1;
+}
+
+label{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+
+}
+input, select{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input:focus, select:focus{
+    outline: none;
+    border-color: rgb(0, 191, 255);
+}
+select{
+    width: auto;
+}
+.submit-form input{
+    width: auto;
+    color: white;
+    background-color: rgb(0, 191, 255);
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    line-height: normal;
+}
+th{
+    font-weight: 400;
+}
+.delete-btn{
+    background-color: rgb(255, 0, 106);
+    color: white;
+    cursor: pointer;
+}
+
